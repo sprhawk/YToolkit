@@ -26,7 +26,7 @@
 //OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #import "ASIHTTPRequest.h"
-#import <ytoolkit/yoauthv1.h>
+#import "yoauthv1.h"
 // Note 1: Not support to sign a post data when YES == streamPostDataFromDisk.
 //          "Are you sure to sign a huge post data with OAuth?"
 // Note 2: "old version of oauth.py (which Douban is using currently) requires an 'OAuth realm=' format pattern

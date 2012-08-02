@@ -12,8 +12,8 @@
 		9A09914F147B9D6C005FBF4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A09914E147B9D6C005FBF4B /* UIKit.framework */; };
 		9A099150147B9D6C005FBF4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A09913E147B9D6C005FBF4B /* Foundation.framework */; };
 		9A099153147B9D6C005FBF4B /* libybase64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A09913B147B9D6C005FBF4B /* libybase64.a */; };
-		9A09916F147B9E69005FBF4B /* ydefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916C147B9E69005FBF4B /* ydefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A099170147B9E69005FBF4B /* ymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916D147B9E69005FBF4B /* ymacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A09916F147B9E69005FBF4B /* ydefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916C147B9E69005FBF4B /* ydefines.h */; settings = {ATTRIBUTES = (); }; };
+		9A099170147B9E69005FBF4B /* ymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916D147B9E69005FBF4B /* ymacros.h */; settings = {ATTRIBUTES = (); }; };
 		9A0991A5147BA059005FBF4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A09913E147B9D6C005FBF4B /* Foundation.framework */; };
 		9A0991B2147BA059005FBF4B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A09914C147B9D6C005FBF4B /* SenTestingKit.framework */; };
 		9A0991B3147BA059005FBF4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A09914E147B9D6C005FBF4B /* UIKit.framework */; };
@@ -31,36 +31,36 @@
 		9A099244147BA3F7005FBF4B /* libyoauth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A099231147BA3F6005FBF4B /* libyoauth.a */; };
 		9A099282147BA57C005FBF4B /* ybase64-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 9A09927F147BA57C005FBF4B /* ybase64-Prefix.pch */; };
 		9A099283147BA57C005FBF4B /* ybase64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A099280147BA57C005FBF4B /* ybase64.c */; };
-		9A099284147BA57C005FBF4B /* ybase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099281147BA57C005FBF4B /* ybase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A099284147BA57C005FBF4B /* ybase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099281147BA57C005FBF4B /* ybase64.h */; settings = {ATTRIBUTES = (); }; };
 		9A09928D147BA587005FBF4B /* base64Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A099287147BA587005FBF4B /* base64Tests.m */; };
 		9A09928E147BA587005FBF4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A099288147BA587005FBF4B /* InfoPlist.strings */; };
 		9A099290147BA587005FBF4B /* ybase64Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09928C147BA587005FBF4B /* ybase64Tests.m */; };
-		9A099299147BA59A005FBF4B /* NSData+YBase64String.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099292147BA59A005FBF4B /* NSData+YBase64String.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A099299147BA59A005FBF4B /* NSData+YBase64String.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099292147BA59A005FBF4B /* NSData+YBase64String.h */; settings = {ATTRIBUTES = (); }; };
 		9A09929A147BA59A005FBF4B /* NSData+YBase64String.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A099293147BA59A005FBF4B /* NSData+YBase64String.m */; };
-		9A09929B147BA59A005FBF4B /* NSString+YBase64toData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099294147BA59A005FBF4B /* NSString+YBase64toData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A09929B147BA59A005FBF4B /* NSString+YBase64toData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099294147BA59A005FBF4B /* NSString+YBase64toData.h */; settings = {ATTRIBUTES = (); }; };
 		9A09929C147BA59A005FBF4B /* NSString+YBase64toData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A099295147BA59A005FBF4B /* NSString+YBase64toData.m */; };
 		9A09929D147BA59A005FBF4B /* ybase64additions-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 9A099296147BA59A005FBF4B /* ybase64additions-Prefix.pch */; };
-		9A09929E147BA59A005FBF4B /* ybase64additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099297147BA59A005FBF4B /* ybase64additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A09929E147BA59A005FBF4B /* ybase64additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099297147BA59A005FBF4B /* ybase64additions.h */; settings = {ATTRIBUTES = (); }; };
 		9A0992A6147BA5A6005FBF4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A0992A1147BA5A6005FBF4B /* InfoPlist.strings */; };
 		9A0992A8147BA5A6005FBF4B /* ybase64additionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992A5147BA5A6005FBF4B /* ybase64additionsTests.m */; };
-		9A0992B2147BA5B6005FBF4B /* NSDictionary+YHTTPURLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AA147BA5B6005FBF4B /* NSDictionary+YHTTPURLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A0992B2147BA5B6005FBF4B /* NSDictionary+YHTTPURLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AA147BA5B6005FBF4B /* NSDictionary+YHTTPURLDictionary.h */; settings = {ATTRIBUTES = (); }; };
 		9A0992B3147BA5B6005FBF4B /* NSDictionary+YHTTPURLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992AB147BA5B6005FBF4B /* NSDictionary+YHTTPURLDictionary.m */; };
-		9A0992B4147BA5B6005FBF4B /* NSMutableDictionary+YDuplicatableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AC147BA5B6005FBF4B /* NSMutableDictionary+YDuplicatableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A0992B4147BA5B6005FBF4B /* NSMutableDictionary+YDuplicatableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AC147BA5B6005FBF4B /* NSMutableDictionary+YDuplicatableDictionary.h */; settings = {ATTRIBUTES = (); }; };
 		9A0992B5147BA5B6005FBF4B /* NSMutableDictionary+YDuplicatableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992AD147BA5B6005FBF4B /* NSMutableDictionary+YDuplicatableDictionary.m */; };
-		9A0992B6147BA5B6005FBF4B /* NSString+YHTTPURLString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AE147BA5B6005FBF4B /* NSString+YHTTPURLString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A0992B6147BA5B6005FBF4B /* NSString+YHTTPURLString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AE147BA5B6005FBF4B /* NSString+YHTTPURLString.h */; settings = {ATTRIBUTES = (); }; };
 		9A0992B7147BA5B6005FBF4B /* NSString+YHTTPURLString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992AF147BA5B6005FBF4B /* NSString+YHTTPURLString.m */; };
 		9A0992B8147BA5B6005FBF4B /* ycocoaadditions-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992B0147BA5B6005FBF4B /* ycocoaadditions-Prefix.pch */; };
-		9A0992B9147BA5B6005FBF4B /* ycocoaadditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992B1147BA5B6005FBF4B /* ycocoaadditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A0992B9147BA5B6005FBF4B /* ycocoaadditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992B1147BA5B6005FBF4B /* ycocoaadditions.h */; settings = {ATTRIBUTES = (); }; };
 		9A0992C0147BA5C2005FBF4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A0992BB147BA5C2005FBF4B /* InfoPlist.strings */; };
-		9A0992D1147BA5D0005FBF4B /* yoauthv1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992C5147BA5D0005FBF4B /* yoauthv1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A0992D1147BA5D0005FBF4B /* yoauthv1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992C5147BA5D0005FBF4B /* yoauthv1.h */; settings = {ATTRIBUTES = (); }; };
 		9A0992D2147BA5D0005FBF4B /* yoauthv1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992C6147BA5D0005FBF4B /* yoauthv1.m */; };
 		9A0992D3147BA5D0005FBF4B /* yoauthv1_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992C7147BA5D0005FBF4B /* yoauthv1_internal.h */; settings = {ATTRIBUTES = (); }; };
 		9A0992D4147BA5D0005FBF4B /* yoauthv1_internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992C8147BA5D0005FBF4B /* yoauthv1_internal.m */; };
-		9A0992D5147BA5D0005FBF4B /* yoauthv2.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992CA147BA5D0005FBF4B /* yoauthv2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A0992D5147BA5D0005FBF4B /* yoauthv2.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992CA147BA5D0005FBF4B /* yoauthv2.h */; settings = {ATTRIBUTES = (); }; };
 		9A0992D6147BA5D0005FBF4B /* yoauthv2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992CB147BA5D0005FBF4B /* yoauthv2.m */; };
 		9A0992D7147BA5D0005FBF4B /* yoauth-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992CC147BA5D0005FBF4B /* yoauth-Prefix.pch */; };
-		9A0992D8147BA5D0005FBF4B /* yoauth.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992CD147BA5D0005FBF4B /* yoauth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A0992DA147BA5D0005FBF4B /* yoauth_utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992CF147BA5D0005FBF4B /* yoauth_utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A0992D8147BA5D0005FBF4B /* yoauth.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992CD147BA5D0005FBF4B /* yoauth.h */; settings = {ATTRIBUTES = (); }; };
+		9A0992DA147BA5D0005FBF4B /* yoauth_utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992CF147BA5D0005FBF4B /* yoauth_utilities.h */; settings = {ATTRIBUTES = (); }; };
 		9A0992DB147BA5D0005FBF4B /* yoauth_utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992D0147BA5D0005FBF4B /* yoauth_utilities.m */; };
 		9A0992E2147BA5DC005FBF4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A0992DD147BA5DC005FBF4B /* InfoPlist.strings */; };
 		9A0992E4147BA5DC005FBF4B /* yoauthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992E1147BA5DC005FBF4B /* yoauthTests.m */; };
@@ -70,20 +70,20 @@
 		9A57F75F147BACA300B16AE9 /* libycocoaadditions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0991A4147BA059005FBF4B /* libycocoaadditions.a */; };
 		9A57F76D147BAEF300B16AE9 /* YHTTPURLMutableDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A57F764147BAE8A00B16AE9 /* YHTTPURLMutableDictionaryTest.m */; };
 		9A57F76E147BAEF300B16AE9 /* YHTTPURLStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A57F765147BAE8A00B16AE9 /* YHTTPURLStringTests.m */; };
-		9AABE9F0147F8E1200A678B3 /* ytiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE98E9B147E5FC000D4488F /* ytiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AABE9F1147F8E1400A678B3 /* ytiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE98E9B147E5FC000D4488F /* ytiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AABE9F2147F8E1400A678B3 /* ydefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916C147B9E69005FBF4B /* ydefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AABE9F3147F8E1400A678B3 /* ymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916D147B9E69005FBF4B /* ymacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AABE9F4147F8E1500A678B3 /* ytiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE98E9B147E5FC000D4488F /* ytiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AABE9F5147F8E1500A678B3 /* ydefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916C147B9E69005FBF4B /* ydefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AABE9F6147F8E1500A678B3 /* ymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916D147B9E69005FBF4B /* ymacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AABE9F7147F8E1600A678B3 /* ytiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE98E9B147E5FC000D4488F /* ytiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AABE9F8147F8E1600A678B3 /* ydefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916C147B9E69005FBF4B /* ydefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AABE9F9147F8E1600A678B3 /* ymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916D147B9E69005FBF4B /* ymacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AABE9FA147F8E2C00A678B3 /* ytiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE98E9B147E5FC000D4488F /* ytiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AABE9FB147F8E2C00A678B3 /* ydefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916C147B9E69005FBF4B /* ydefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AABE9FC147F8E2C00A678B3 /* ymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916D147B9E69005FBF4B /* ymacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AABE9FD147F8EB400A678B3 /* NSMutableURLRequest+YOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC0C519147E9C20008E5AD5 /* NSMutableURLRequest+YOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AABE9F0147F8E1200A678B3 /* ytiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE98E9B147E5FC000D4488F /* ytiming.h */; settings = {ATTRIBUTES = (); }; };
+		9AABE9F1147F8E1400A678B3 /* ytiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE98E9B147E5FC000D4488F /* ytiming.h */; settings = {ATTRIBUTES = (); }; };
+		9AABE9F2147F8E1400A678B3 /* ydefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916C147B9E69005FBF4B /* ydefines.h */; settings = {ATTRIBUTES = (); }; };
+		9AABE9F3147F8E1400A678B3 /* ymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916D147B9E69005FBF4B /* ymacros.h */; settings = {ATTRIBUTES = (); }; };
+		9AABE9F4147F8E1500A678B3 /* ytiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE98E9B147E5FC000D4488F /* ytiming.h */; settings = {ATTRIBUTES = (); }; };
+		9AABE9F5147F8E1500A678B3 /* ydefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916C147B9E69005FBF4B /* ydefines.h */; settings = {ATTRIBUTES = (); }; };
+		9AABE9F6147F8E1500A678B3 /* ymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916D147B9E69005FBF4B /* ymacros.h */; settings = {ATTRIBUTES = (); }; };
+		9AABE9F7147F8E1600A678B3 /* ytiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE98E9B147E5FC000D4488F /* ytiming.h */; settings = {ATTRIBUTES = (); }; };
+		9AABE9F8147F8E1600A678B3 /* ydefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916C147B9E69005FBF4B /* ydefines.h */; settings = {ATTRIBUTES = (); }; };
+		9AABE9F9147F8E1600A678B3 /* ymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916D147B9E69005FBF4B /* ymacros.h */; settings = {ATTRIBUTES = (); }; };
+		9AABE9FA147F8E2C00A678B3 /* ytiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE98E9B147E5FC000D4488F /* ytiming.h */; settings = {ATTRIBUTES = (); }; };
+		9AABE9FB147F8E2C00A678B3 /* ydefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916C147B9E69005FBF4B /* ydefines.h */; settings = {ATTRIBUTES = (); }; };
+		9AABE9FC147F8E2C00A678B3 /* ymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916D147B9E69005FBF4B /* ymacros.h */; settings = {ATTRIBUTES = (); }; };
+		9AABE9FD147F8EB400A678B3 /* NSMutableURLRequest+YOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC0C519147E9C20008E5AD5 /* NSMutableURLRequest+YOAuth.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9AABEA05147F90F400A678B3 /* NSMutableURLRequest+YOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0C51A147E9C20008E5AD5 /* NSMutableURLRequest+YOAuth.m */; };
 		9AABEA0C147FA51000A678B3 /* libybase64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A09913B147B9D6C005FBF4B /* libybase64.a */; };
 		9AC0C4E5147E9B1C008E5AD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A09913E147B9D6C005FBF4B /* Foundation.framework */; };
@@ -95,54 +95,54 @@
 		9AC0C515147E9BCB008E5AD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AC0C510147E9BCB008E5AD5 /* InfoPlist.strings */; };
 		9AC0C516147E9BCB008E5AD5 /* yoauthadditionsTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AC0C512147E9BCB008E5AD5 /* yoauthadditionsTests-Info.plist */; };
 		9AC0C517147E9BCB008E5AD5 /* yoauthadditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0C514147E9BCB008E5AD5 /* yoauthadditionsTests.m */; };
-		9AC0C51B147E9C20008E5AD5 /* NSMutableURLRequest+YOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC0C519147E9C20008E5AD5 /* NSMutableURLRequest+YOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AC0C51B147E9C20008E5AD5 /* NSMutableURLRequest+YOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC0C519147E9C20008E5AD5 /* NSMutableURLRequest+YOAuth.h */; settings = {ATTRIBUTES = (); }; };
 		9AC0C51C147E9C20008E5AD5 /* NSMutableURLRequest+YOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0C51A147E9C20008E5AD5 /* NSMutableURLRequest+YOAuth.m */; };
-		9AC0FC9F147FF39000E020AF /* yoauthadditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC0FC9D147FF39000E020AF /* yoauthadditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AC0FCA2147FF3C000E020AF /* yoauthadditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC0FC9D147FF39000E020AF /* yoauthadditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AC0FCC91481287400E020AF /* NSError+YOAuthv2.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC0FCC71481287300E020AF /* NSError+YOAuthv2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AC0FC9F147FF39000E020AF /* yoauthadditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC0FC9D147FF39000E020AF /* yoauthadditions.h */; settings = {ATTRIBUTES = (); }; };
+		9AC0FCA2147FF3C000E020AF /* yoauthadditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC0FC9D147FF39000E020AF /* yoauthadditions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AC0FCC91481287400E020AF /* NSError+YOAuthv2.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC0FCC71481287300E020AF /* NSError+YOAuthv2.h */; settings = {ATTRIBUTES = (); }; };
 		9AC0FCCA1481287400E020AF /* NSError+YOAuthv2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0FCC81481287400E020AF /* NSError+YOAuthv2.m */; };
-		9AC0FCCB14812C7100E020AF /* NSError+YOAuthv2.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC0FCC71481287300E020AF /* NSError+YOAuthv2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AC0FCCB14812C7100E020AF /* NSError+YOAuthv2.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC0FCC71481287300E020AF /* NSError+YOAuthv2.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9AC0FCCD14812C7A00E020AF /* NSError+YOAuthv2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0FCC81481287400E020AF /* NSError+YOAuthv2.m */; };
 		9AC0FCD41481318000E020AF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC0FCD31481318000E020AF /* Cocoa.framework */; };
 		9AC0FCDE1481318000E020AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AC0FCDC1481318000E020AF /* InfoPlist.strings */; };
 		9AC0FCE5148132C900E020AF /* ErrorLocalizedString.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AC0FCE7148132C900E020AF /* ErrorLocalizedString.strings */; };
 		9AC17AF2147BB3FC00499A4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AC17AF0147BB3FC00499A4F /* InfoPlist.strings */; };
-		9AC17AF9147BB45000499A4F /* ydefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916C147B9E69005FBF4B /* ydefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AC17AFA147BB45C00499A4F /* ymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916D147B9E69005FBF4B /* ymacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AC17AFB147BB46500499A4F /* NSDictionary+YHTTPURLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AA147BA5B6005FBF4B /* NSDictionary+YHTTPURLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AC17AF9147BB45000499A4F /* ydefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916C147B9E69005FBF4B /* ydefines.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AC17AFA147BB45C00499A4F /* ymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916D147B9E69005FBF4B /* ymacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AC17AFB147BB46500499A4F /* NSDictionary+YHTTPURLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AA147BA5B6005FBF4B /* NSDictionary+YHTTPURLDictionary.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9AC17AFC147BB47300499A4F /* NSDictionary+YHTTPURLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992AB147BA5B6005FBF4B /* NSDictionary+YHTTPURLDictionary.m */; };
 		9AC17AFD147BB47300499A4F /* NSMutableDictionary+YDuplicatableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992AD147BA5B6005FBF4B /* NSMutableDictionary+YDuplicatableDictionary.m */; };
 		9AC17AFE147BB47300499A4F /* NSString+YHTTPURLString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992AF147BA5B6005FBF4B /* NSString+YHTTPURLString.m */; };
-		9AC17AFF147BB4AA00499A4F /* ycocoaadditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992B1147BA5B6005FBF4B /* ycocoaadditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AC17B00147BB4BA00499A4F /* NSMutableDictionary+YDuplicatableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AC147BA5B6005FBF4B /* NSMutableDictionary+YDuplicatableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AC17B01147BB4BA00499A4F /* NSString+YHTTPURLString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AE147BA5B6005FBF4B /* NSString+YHTTPURLString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AC17AFF147BB4AA00499A4F /* ycocoaadditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992B1147BA5B6005FBF4B /* ycocoaadditions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AC17B00147BB4BA00499A4F /* NSMutableDictionary+YDuplicatableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AC147BA5B6005FBF4B /* NSMutableDictionary+YDuplicatableDictionary.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AC17B01147BB4BA00499A4F /* NSString+YHTTPURLString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AE147BA5B6005FBF4B /* NSString+YHTTPURLString.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9AC17B02147BB4DD00499A4F /* ybase64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A099280147BA57C005FBF4B /* ybase64.c */; };
-		9AC17B03147BB4E200499A4F /* ybase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099281147BA57C005FBF4B /* ybase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AC17B04147BB50C00499A4F /* ybase64additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099297147BA59A005FBF4B /* ybase64additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AC17B03147BB4E200499A4F /* ybase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099281147BA57C005FBF4B /* ybase64.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AC17B04147BB50C00499A4F /* ybase64additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099297147BA59A005FBF4B /* ybase64additions.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9AC17B05147BB51900499A4F /* NSData+YBase64String.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A099293147BA59A005FBF4B /* NSData+YBase64String.m */; };
 		9AC17B06147BB51900499A4F /* NSString+YBase64toData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A099295147BA59A005FBF4B /* NSString+YBase64toData.m */; };
-		9AC17B07147BB51E00499A4F /* NSData+YBase64String.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099292147BA59A005FBF4B /* NSData+YBase64String.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AC17B08147BB51E00499A4F /* NSString+YBase64toData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099294147BA59A005FBF4B /* NSString+YBase64toData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AC17B09147BB56E00499A4F /* yoauthv1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992C5147BA5D0005FBF4B /* yoauthv1.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AC17B0A147BB56E00499A4F /* yoauthv2.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992CA147BA5D0005FBF4B /* yoauthv2.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AC17B0B147BB56E00499A4F /* yoauth.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992CD147BA5D0005FBF4B /* yoauth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AC17B0C147BB56E00499A4F /* yoauth_utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992CF147BA5D0005FBF4B /* yoauth_utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AC17B07147BB51E00499A4F /* NSData+YBase64String.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099292147BA59A005FBF4B /* NSData+YBase64String.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AC17B08147BB51E00499A4F /* NSString+YBase64toData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A099294147BA59A005FBF4B /* NSString+YBase64toData.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AC17B09147BB56E00499A4F /* yoauthv1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992C5147BA5D0005FBF4B /* yoauthv1.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AC17B0A147BB56E00499A4F /* yoauthv2.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992CA147BA5D0005FBF4B /* yoauthv2.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AC17B0B147BB56E00499A4F /* yoauth.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992CD147BA5D0005FBF4B /* yoauth.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AC17B0C147BB56E00499A4F /* yoauth_utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992CF147BA5D0005FBF4B /* yoauth_utilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9AC17B0D147BB57C00499A4F /* yoauthv1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992C6147BA5D0005FBF4B /* yoauthv1.m */; };
 		9AC17B0E147BB57C00499A4F /* yoauthv1_internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992C8147BA5D0005FBF4B /* yoauthv1_internal.m */; };
 		9AC17B0F147BB57C00499A4F /* yoauthv2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992CB147BA5D0005FBF4B /* yoauthv2.m */; };
 		9AC17B10147BB57C00499A4F /* yoauth_utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992D0147BA5D0005FBF4B /* yoauth_utilities.m */; };
 		9AC17B11147BB58700499A4F /* yoauthv1_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992C7147BA5D0005FBF4B /* yoauthv1_internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9AE98E9C147E5FC000D4488F /* ytiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE98E9B147E5FC000D4488F /* ytiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AE98E9C147E5FC000D4488F /* ytiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE98E9B147E5FC000D4488F /* ytiming.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9AED768E1498FECE001074E5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC0FCD31481318000E020AF /* Cocoa.framework */; };
-		9AED76981498FEF5001074E5 /* NSDictionary+YHTTPURLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AA147BA5B6005FBF4B /* NSDictionary+YHTTPURLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AED76981498FEF5001074E5 /* NSDictionary+YHTTPURLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AA147BA5B6005FBF4B /* NSDictionary+YHTTPURLDictionary.h */; settings = {ATTRIBUTES = (); }; };
 		9AED76991498FEF5001074E5 /* NSDictionary+YHTTPURLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992AB147BA5B6005FBF4B /* NSDictionary+YHTTPURLDictionary.m */; };
-		9AED769A1498FEF5001074E5 /* NSMutableDictionary+YDuplicatableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AC147BA5B6005FBF4B /* NSMutableDictionary+YDuplicatableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AED769A1498FEF5001074E5 /* NSMutableDictionary+YDuplicatableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AC147BA5B6005FBF4B /* NSMutableDictionary+YDuplicatableDictionary.h */; settings = {ATTRIBUTES = (); }; };
 		9AED769B1498FEF5001074E5 /* NSMutableDictionary+YDuplicatableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992AD147BA5B6005FBF4B /* NSMutableDictionary+YDuplicatableDictionary.m */; };
-		9AED769C1498FEF5001074E5 /* NSString+YHTTPURLString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AE147BA5B6005FBF4B /* NSString+YHTTPURLString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AED769C1498FEF5001074E5 /* NSString+YHTTPURLString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992AE147BA5B6005FBF4B /* NSString+YHTTPURLString.h */; settings = {ATTRIBUTES = (); }; };
 		9AED769D1498FEF5001074E5 /* NSString+YHTTPURLString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0992AF147BA5B6005FBF4B /* NSString+YHTTPURLString.m */; };
-		9AED769E1498FEF5001074E5 /* ycocoaadditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992B1147BA5B6005FBF4B /* ycocoaadditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AED76AE14990669001074E5 /* ydefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916C147B9E69005FBF4B /* ydefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AED76AF14990669001074E5 /* ymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916D147B9E69005FBF4B /* ymacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AED769E1498FEF5001074E5 /* ycocoaadditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0992B1147BA5B6005FBF4B /* ycocoaadditions.h */; settings = {ATTRIBUTES = (); }; };
+		9AED76AE14990669001074E5 /* ydefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916C147B9E69005FBF4B /* ydefines.h */; settings = {ATTRIBUTES = (); }; };
+		9AED76AF14990669001074E5 /* ymacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A09916D147B9E69005FBF4B /* ymacros.h */; settings = {ATTRIBUTES = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -818,9 +818,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A099282147BA57C005FBF4B /* ybase64-Prefix.pch in Headers */,
 				9A09916F147B9E69005FBF4B /* ydefines.h in Headers */,
 				9A099170147B9E69005FBF4B /* ymacros.h in Headers */,
-				9A099282147BA57C005FBF4B /* ybase64-Prefix.pch in Headers */,
 				9A099284147BA57C005FBF4B /* ybase64.h in Headers */,
 				9AABE9F0147F8E1200A678B3 /* ytiming.h in Headers */,
 			);
@@ -830,10 +830,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0992B8147BA5B6005FBF4B /* ycocoaadditions-Prefix.pch in Headers */,
 				9A0992B2147BA5B6005FBF4B /* NSDictionary+YHTTPURLDictionary.h in Headers */,
 				9A0992B4147BA5B6005FBF4B /* NSMutableDictionary+YDuplicatableDictionary.h in Headers */,
 				9A0992B6147BA5B6005FBF4B /* NSString+YHTTPURLString.h in Headers */,
-				9A0992B8147BA5B6005FBF4B /* ycocoaadditions-Prefix.pch in Headers */,
 				9A0992B9147BA5B6005FBF4B /* ycocoaadditions.h in Headers */,
 				9AABE9F4147F8E1500A678B3 /* ytiming.h in Headers */,
 				9AABE9F5147F8E1500A678B3 /* ydefines.h in Headers */,
@@ -845,9 +845,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A09929D147BA59A005FBF4B /* ybase64additions-Prefix.pch in Headers */,
 				9A099299147BA59A005FBF4B /* NSData+YBase64String.h in Headers */,
 				9A09929B147BA59A005FBF4B /* NSString+YBase64toData.h in Headers */,
-				9A09929D147BA59A005FBF4B /* ybase64additions-Prefix.pch in Headers */,
 				9A09929E147BA59A005FBF4B /* ybase64additions.h in Headers */,
 				9AABE9F1147F8E1400A678B3 /* ytiming.h in Headers */,
 				9AABE9F2147F8E1400A678B3 /* ydefines.h in Headers */,
@@ -859,10 +859,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A0992D1147BA5D0005FBF4B /* yoauthv1.h in Headers */,
 				9A0992D3147BA5D0005FBF4B /* yoauthv1_internal.h in Headers */,
-				9A0992D5147BA5D0005FBF4B /* yoauthv2.h in Headers */,
 				9A0992D7147BA5D0005FBF4B /* yoauth-Prefix.pch in Headers */,
+				9A0992D1147BA5D0005FBF4B /* yoauthv1.h in Headers */,
+				9A0992D5147BA5D0005FBF4B /* yoauthv2.h in Headers */,
 				9A0992D8147BA5D0005FBF4B /* yoauth.h in Headers */,
 				9A0992DA147BA5D0005FBF4B /* yoauth_utilities.h in Headers */,
 				9AABE9F7147F8E1600A678B3 /* ytiming.h in Headers */,
@@ -889,6 +889,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC17B11147BB58700499A4F /* yoauthv1_internal.h in Headers */,
 				9AC17AF9147BB45000499A4F /* ydefines.h in Headers */,
 				9AC17AFA147BB45C00499A4F /* ymacros.h in Headers */,
 				9AC17AFB147BB46500499A4F /* NSDictionary+YHTTPURLDictionary.h in Headers */,
@@ -903,7 +904,6 @@
 				9AC17B0A147BB56E00499A4F /* yoauthv2.h in Headers */,
 				9AC17B0B147BB56E00499A4F /* yoauth.h in Headers */,
 				9AC17B0C147BB56E00499A4F /* yoauth_utilities.h in Headers */,
-				9AC17B11147BB58700499A4F /* yoauthv1_internal.h in Headers */,
 				9AE98E9C147E5FC000D4488F /* ytiming.h in Headers */,
 				9AABE9FD147F8EB400A678B3 /* NSMutableURLRequest+YOAuth.h in Headers */,
 				9AC0FCA2147FF3C000E020AF /* yoauthadditions.h in Headers */,
