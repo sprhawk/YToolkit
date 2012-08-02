@@ -28,10 +28,10 @@
 
 #import "ASIHTTPRequest+YOAuthv1Request.h"
 #import "ASIFormDataRequest.h"
-#import <ytoolkit/NSString+YHTTPURLString.h>
-#import <ytoolkit/NSDictionary+YHTTPURLDictionary.h>
-#import <ytoolkit/yoauthv1.h>
-#import <ytoolkit/ymacros.h>
+#import "NSString+YHTTPURLString.h"
+#import "NSDictionary+YHTTPURLDictionary.h"
+#import "yoauthv1.h"
+#import "ymacros.h"
 
 @implementation ASIHTTPRequest (YOAuthv1Request)
 
